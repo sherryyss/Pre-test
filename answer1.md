@@ -15,6 +15,7 @@ isSubset([A,D,E], [A,A,D,E]) = true
 Please explain the computational complexity of your answer in Big-O notation, i.e. O(log n) or O(n ^2)?		
 
 
+
 ### Answer:
 ```
 const isSubset = (firstArray, secondArray) => {
