@@ -61,7 +61,7 @@ print(cache2.get("key2"))
 
 if key not in the cache:
 
-    return -1
+   return -1
 
 else:
 
@@ -86,19 +86,19 @@ first time key is placed in cache let's use the given formula to assign it a key
    calc_weight = weight / 100
   
   
-   if key not in the cache:
+if key not in the cache:
    
-      if cache is full: 
+   if cache is full: 
       
-         search key_scores to get the lowest scored key 
+   search key_scores to get the lowest scored key 
          
-         one found, remove the lowest scored key from cache and from key_scores
+   one found, remove the lowest scored key from cache and from key_scores
          
-         now we can add the new entry in cache along with its score in key_scores
+   now we can add the new entry in cache along with its score in key_scores
          
-      else:
+   else:
       
-         cache is not full so we just need to add the new entry in cache along with its score in key_scores
+   cache is not full so we just need to add the new entry in cache along with its score in key_scores
 
 least_scored() => To implement the search, we place all the weights in a list() first and apply a sort to get the lowest weight first. Given the lowest weight, get the first corresponding key having the given weight. This is the key that will be removed.
 
